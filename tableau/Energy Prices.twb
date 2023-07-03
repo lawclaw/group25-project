@@ -1,0 +1,400 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.23.0623.1511                               -->
+<workbook original-version='18.1' source-build='2022.2.10 (20222.23.0623.1511)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='retail-price-comparison' inline='true' name='federated.10s5dpi1h1owgo10hfzq61ib2vw2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='retail-price-comparison' name='textscan.1vdozmz1ipfe9211psj9u1csxg6l'>
+            <connection class='textscan' directory='C:/Users/Law/Desktop/Project/group25-project/data' filename='retail-price-comparison.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1vdozmz1ipfe9211psj9u1csxg6l' name='retail-price-comparison.csv' table='[retail-price-comparison#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='datetime' name='__' ordinal='0' />
+            <column datatype='real' name='Average standard variable tariff (Large legacy suppliers)' ordinal='1' />
+            <column datatype='real' name='Average standard variable tariff (Other suppliers)' ordinal='2' />
+            <column datatype='real' name='Average fixed tariff' ordinal='3' />
+            <column datatype='real' name='Cheapest tariff (Large legacy suppliers)' ordinal='4' />
+            <column datatype='real' name='Cheapest tariff (All suppliers)' ordinal='5' />
+            <column datatype='real' name='Cheapest tariff (Basket)' ordinal='6' />
+            <column datatype='real' name='Default tariff cap level' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1vdozmz1ipfe9211psj9u1csxg6l' name='retail-price-comparison.csv' table='[retail-price-comparison#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='datetime' name='__' ordinal='0' />
+            <column datatype='real' name='Average standard variable tariff (Large legacy suppliers)' ordinal='1' />
+            <column datatype='real' name='Average standard variable tariff (Other suppliers)' ordinal='2' />
+            <column datatype='real' name='Average fixed tariff' ordinal='3' />
+            <column datatype='real' name='Cheapest tariff (Large legacy suppliers)' ordinal='4' />
+            <column datatype='real' name='Cheapest tariff (All suppliers)' ordinal='5' />
+            <column datatype='real' name='Cheapest tariff (Basket)' ordinal='6' />
+            <column datatype='real' name='Default tariff cap level' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>__</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[__]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>__</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average standard variable tariff (Large legacy suppliers)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average standard variable tariff (Large legacy suppliers)]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Average standard variable tariff (Large legacy suppliers)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average standard variable tariff (Other suppliers)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average standard variable tariff (Other suppliers)]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Average standard variable tariff (Other suppliers)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Average fixed tariff</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Average fixed tariff]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Average fixed tariff</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cheapest tariff (Large legacy suppliers)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cheapest tariff (Large legacy suppliers)]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Cheapest tariff (Large legacy suppliers)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cheapest tariff (All suppliers)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cheapest tariff (All suppliers)]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Cheapest tariff (All suppliers)</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cheapest tariff (Basket)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cheapest tariff (Basket)]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Cheapest tariff (Basket)</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Default tariff cap level</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Default tariff cap level]</local-name>
+            <parent-name>[retail-price-comparison.csv]</parent-name>
+            <remote-alias>Default tariff cap level</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='retail-price-comparison.csv' datatype='table' name='[__tableau_internal_object_id__].[retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='retail-price-comparison.csv' id='retail-price-comparison.csv_25339369CCCA4BE4A556F087C1C75D25'>
+            <properties context=''>
+              <relation connection='textscan.1vdozmz1ipfe9211psj9u1csxg6l' name='retail-price-comparison.csv' table='[retail-price-comparison#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='datetime' name='__' ordinal='0' />
+                  <column datatype='real' name='Average standard variable tariff (Large legacy suppliers)' ordinal='1' />
+                  <column datatype='real' name='Average standard variable tariff (Other suppliers)' ordinal='2' />
+                  <column datatype='real' name='Average fixed tariff' ordinal='3' />
+                  <column datatype='real' name='Cheapest tariff (Large legacy suppliers)' ordinal='4' />
+                  <column datatype='real' name='Cheapest tariff (All suppliers)' ordinal='5' />
+                  <column datatype='real' name='Cheapest tariff (Basket)' ordinal='6' />
+                  <column datatype='real' name='Default tariff cap level' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Helvetica Neue'>Average Standard Variable Energy Tariff (Large Legacy Suppliers)</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='retail-price-comparison' name='federated.10s5dpi1h1owgo10hfzq61ib2vw2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.10s5dpi1h1owgo10hfzq61ib2vw2'>
+            <column datatype='real' name='[Average standard variable tariff (Large legacy suppliers)]' role='measure' type='quantitative' />
+            <column datatype='datetime' name='[__]' role='dimension' type='ordinal' />
+            <column-instance column='[__]' derivation='Month' name='[mn:__:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Average standard variable tariff (Large legacy suppliers)]' derivation='Sum' name='[sum:Average standard variable tariff (Large legacy suppliers):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[sum:Average standard variable tariff (Large legacy suppliers):qk]' scope='rows' value='Tariff' />
+            <format attr='auto-subtitle' class='0' field='[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[sum:Average standard variable tariff (Large legacy suppliers):qk]' scope='rows' value='true' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[sum:Average standard variable tariff (Large legacy suppliers):qk]' value='C2057%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[sum:Average standard variable tariff (Large legacy suppliers):qk]</rows>
+        <cols>[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[mn:__:ok]</cols>
+      </table>
+      <simple-id uuid='{C4E6B84B-0D95-4ADB-968D-4C9EEA14F2C2}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[yr:_:ok]</field>
+            <field>[federated.10s5dpi1h1owgo10hfzq61ib2vw2].[yr:__:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{19518005-5225-493B-ABB7-A6C8DD560990}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

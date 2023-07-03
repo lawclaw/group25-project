@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.23.0623.1511                               -->
+<workbook original-version='18.1' source-build='2022.2.10 (20222.23.0623.1511)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Food Price Inflation' inline='true' name='federated.1q5ncpi1hmydxv1a8eo5v0v403oo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Food Price Inflation' name='textscan.02umcnt11cb9at1em1i4r0phqy60'>
+            <connection class='textscan' directory='C:/Users/Law/Desktop/Project/group25-project/data' filename='Food Price Inflation.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.02umcnt11cb9at1em1i4r0phqy60' name='Food Price Inflation.csv' table='[Food Price Inflation#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' date-parse-format='MMM yyyy|#|#|&apos;Sept&apos; yyyy' name='Date' ordinal='0' />
+            <column datatype='real' name='Canada' ordinal='1' />
+            <column datatype='real' name='France' ordinal='2' />
+            <column datatype='real' name='Germany' ordinal='3' />
+            <column datatype='real' name='Italy' ordinal='4' />
+            <column datatype='real' name='Japan' ordinal='5' />
+            <column datatype='real' name='UK' ordinal='6' />
+            <column datatype='real' name='US' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.02umcnt11cb9at1em1i4r0phqy60' name='Food Price Inflation.csv' table='[Food Price Inflation#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' date-parse-format='MMM yyyy|#|#|&apos;Sept&apos; yyyy' name='Date' ordinal='0' />
+            <column datatype='real' name='Canada' ordinal='1' />
+            <column datatype='real' name='France' ordinal='2' />
+            <column datatype='real' name='Germany' ordinal='3' />
+            <column datatype='real' name='Italy' ordinal='4' />
+            <column datatype='real' name='Japan' ordinal='5' />
+            <column datatype='real' name='UK' ordinal='6' />
+            <column datatype='real' name='US' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Canada</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Canada]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>Canada</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>France</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[France]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>France</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Germany</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Germany]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>Germany</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Italy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Italy]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>Italy</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Japan</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Japan]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>Japan</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UK</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[UK]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>UK</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>US</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[US]</local-name>
+            <parent-name>[Food Price Inflation.csv]</parent-name>
+            <remote-alias>US</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='Food Price Inflation.csv' datatype='table' name='[__tableau_internal_object_id__].[Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Food Price Inflation.csv' id='Food Price Inflation.csv_FCA21433C942479EA672361F8CCB0127'>
+            <properties context=''>
+              <relation connection='textscan.02umcnt11cb9at1em1i4r0phqy60' name='Food Price Inflation.csv' table='[Food Price Inflation#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' date-parse-format='MMM yyyy|#|#|&apos;Sept&apos; yyyy' name='Date' ordinal='0' />
+                  <column datatype='real' name='Canada' ordinal='1' />
+                  <column datatype='real' name='France' ordinal='2' />
+                  <column datatype='real' name='Germany' ordinal='3' />
+                  <column datatype='real' name='Italy' ordinal='4' />
+                  <column datatype='real' name='Japan' ordinal='5' />
+                  <column datatype='real' name='UK' ordinal='6' />
+                  <column datatype='real' name='US' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Food Price Inflation in the UK&#10;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Food Price Inflation' name='federated.1q5ncpi1hmydxv1a8eo5v0v403oo' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1q5ncpi1hmydxv1a8eo5v0v403oo'>
+            <column datatype='date' name='[Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[UK]' role='measure' type='quantitative' />
+            <column-instance column='[UK]' derivation='Sum' name='[sum:UK:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Date]' derivation='Month-Trunc' name='[tmn:Date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[tmn:Date:qk]' scope='cols' value='Date' />
+            <format attr='title' class='0' field='[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[sum:UK:qk]' scope='rows' value='%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[sum:UK:qk]</rows>
+        <cols>[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[tmn:Date:qk]</cols>
+      </table>
+      <simple-id uuid='{EE687FB7-3833-4F4A-877F-DD0FCBD75B45}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[:Measure Names]</field>
+            <field>[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[none:Date:nk]</field>
+            <field>[federated.1q5ncpi1hmydxv1a8eo5v0v403oo].[yr:Date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{45740A5E-9CA0-47C2-8B93-2A6C19EFEBBA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      dHbRaULcAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
