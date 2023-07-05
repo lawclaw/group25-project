@@ -14,4 +14,6 @@ WeeklyRentInUKLocalPublic.ods https://www.gov.uk/government/statistical-data-set
 WeeklyRentInUKPrivate.ods https://www.gov.uk/government/statistical-data-sets/live-tables-on-rents-lettings-and-tenancies
 
 
+InterestRateEngland.xlsx: https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp 
+
 ukpopestimatesmid2021on2021geographyfinal.xls: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
