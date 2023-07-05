@@ -17,3 +17,5 @@ WeeklyRentInUKPrivate.ods https://www.gov.uk/government/statistical-data-sets/li
 InterestRateEngland.xlsx: https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp 
 
 ukpopestimatesmid2021on2021geographyfinal.xls: https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+
+realAverageWeeklyEarnings.xlsx: https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/x09realaverageweeklyearningsusingconsumerpriceinflationseasonallyadjusted 
