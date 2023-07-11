@@ -1,0 +1,1127 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='OCOD_FULL_2023_07' inline='true' name='federated.19p94cn05a12dg11pqc4g0p3b9za' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='OCOD_FULL_2023_07' name='textscan.12kcg0r0229gov164miw50uk94ci'>
+            <connection class='textscan' directory='/Users/tanmeetgabba/Desktop/Tableau/group25-project/data' filename='OCOD_FULL_2023_07.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.12kcg0r0229gov164miw50uk94ci' name='OCOD_FULL_2023_07.csv' table='[OCOD_FULL_2023_07#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Title Number' ordinal='0' />
+            <column datatype='string' name='Tenure' ordinal='1' />
+            <column datatype='string' name='Property Address' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='string' name='County' ordinal='4' />
+            <column datatype='string' name='Region' ordinal='5' />
+            <column datatype='string' name='Postcode' ordinal='6' />
+            <column datatype='string' name='Multiple Address Indicator' ordinal='7' />
+            <column datatype='integer' name='Price Paid' ordinal='8' />
+            <column datatype='string' name='Proprietor Name (1)' ordinal='9' />
+            <column datatype='string' name='Company Registration No. (1)' ordinal='10' />
+            <column datatype='string' name='Proprietorship Category (1)' ordinal='11' />
+            <column datatype='string' name='Country Incorporated (1)' ordinal='12' />
+            <column datatype='string' name='Proprietor (1) Address (1)' ordinal='13' />
+            <column datatype='string' name='Proprietor (1) Address (2)' ordinal='14' />
+            <column datatype='string' name='Proprietor (1) Address (3)' ordinal='15' />
+            <column datatype='string' name='Proprietor Name (2)' ordinal='16' />
+            <column datatype='string' name='Company Registration No. (2)' ordinal='17' />
+            <column datatype='string' name='Proprietorship Category (2)' ordinal='18' />
+            <column datatype='string' name='Country Incorporated (2)' ordinal='19' />
+            <column datatype='string' name='Proprietor (2) Address (1)' ordinal='20' />
+            <column datatype='string' name='Proprietor (2) Address (2)' ordinal='21' />
+            <column datatype='string' name='Proprietor (2) Address (3)' ordinal='22' />
+            <column datatype='string' name='Proprietor Name (3)' ordinal='23' />
+            <column datatype='string' name='Company Registration No. (3)' ordinal='24' />
+            <column datatype='string' name='Proprietorship Category (3)' ordinal='25' />
+            <column datatype='string' name='Country Incorporated (3)' ordinal='26' />
+            <column datatype='string' name='Proprietor (3) Address (1)' ordinal='27' />
+            <column datatype='string' name='Proprietor (3) Address (2)' ordinal='28' />
+            <column datatype='string' name='Proprietor (3) Address (3)' ordinal='29' />
+            <column datatype='string' name='Proprietor Name (4)' ordinal='30' />
+            <column datatype='string' name='Company Registration No. (4)' ordinal='31' />
+            <column datatype='string' name='Proprietorship Category (4)' ordinal='32' />
+            <column datatype='string' name='Country Incorporated (4)' ordinal='33' />
+            <column datatype='string' name='Proprietor (4) Address (1)' ordinal='34' />
+            <column datatype='string' name='Proprietor (4) Address (2)' ordinal='35' />
+            <column datatype='string' name='Proprietor (4) Address (3)' ordinal='36' />
+            <column datatype='date' name='Date Proprietor Added' ordinal='37' />
+            <column datatype='string' name='Additional Proprietor Indicator' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.12kcg0r0229gov164miw50uk94ci' name='OCOD_FULL_2023_07.csv' table='[OCOD_FULL_2023_07#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Title Number' ordinal='0' />
+            <column datatype='string' name='Tenure' ordinal='1' />
+            <column datatype='string' name='Property Address' ordinal='2' />
+            <column datatype='string' name='District' ordinal='3' />
+            <column datatype='string' name='County' ordinal='4' />
+            <column datatype='string' name='Region' ordinal='5' />
+            <column datatype='string' name='Postcode' ordinal='6' />
+            <column datatype='string' name='Multiple Address Indicator' ordinal='7' />
+            <column datatype='integer' name='Price Paid' ordinal='8' />
+            <column datatype='string' name='Proprietor Name (1)' ordinal='9' />
+            <column datatype='string' name='Company Registration No. (1)' ordinal='10' />
+            <column datatype='string' name='Proprietorship Category (1)' ordinal='11' />
+            <column datatype='string' name='Country Incorporated (1)' ordinal='12' />
+            <column datatype='string' name='Proprietor (1) Address (1)' ordinal='13' />
+            <column datatype='string' name='Proprietor (1) Address (2)' ordinal='14' />
+            <column datatype='string' name='Proprietor (1) Address (3)' ordinal='15' />
+            <column datatype='string' name='Proprietor Name (2)' ordinal='16' />
+            <column datatype='string' name='Company Registration No. (2)' ordinal='17' />
+            <column datatype='string' name='Proprietorship Category (2)' ordinal='18' />
+            <column datatype='string' name='Country Incorporated (2)' ordinal='19' />
+            <column datatype='string' name='Proprietor (2) Address (1)' ordinal='20' />
+            <column datatype='string' name='Proprietor (2) Address (2)' ordinal='21' />
+            <column datatype='string' name='Proprietor (2) Address (3)' ordinal='22' />
+            <column datatype='string' name='Proprietor Name (3)' ordinal='23' />
+            <column datatype='string' name='Company Registration No. (3)' ordinal='24' />
+            <column datatype='string' name='Proprietorship Category (3)' ordinal='25' />
+            <column datatype='string' name='Country Incorporated (3)' ordinal='26' />
+            <column datatype='string' name='Proprietor (3) Address (1)' ordinal='27' />
+            <column datatype='string' name='Proprietor (3) Address (2)' ordinal='28' />
+            <column datatype='string' name='Proprietor (3) Address (3)' ordinal='29' />
+            <column datatype='string' name='Proprietor Name (4)' ordinal='30' />
+            <column datatype='string' name='Company Registration No. (4)' ordinal='31' />
+            <column datatype='string' name='Proprietorship Category (4)' ordinal='32' />
+            <column datatype='string' name='Country Incorporated (4)' ordinal='33' />
+            <column datatype='string' name='Proprietor (4) Address (1)' ordinal='34' />
+            <column datatype='string' name='Proprietor (4) Address (2)' ordinal='35' />
+            <column datatype='string' name='Proprietor (4) Address (3)' ordinal='36' />
+            <column datatype='date' name='Date Proprietor Added' ordinal='37' />
+            <column datatype='string' name='Additional Proprietor Indicator' ordinal='38' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title Number</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title Number]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Title Number</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tenure</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Tenure]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Tenure</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Property Address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Property Address]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Property Address</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>District</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[District]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>District</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>County</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Region]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Region</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Postcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Postcode]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Postcode</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Multiple Address Indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Multiple Address Indicator]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Multiple Address Indicator</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Price Paid</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Price Paid]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Price Paid</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor Name (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor Name (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor Name (1)</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Registration No. (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Registration No. (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Company Registration No. (1)</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietorship Category (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietorship Category (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietorship Category (1)</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Incorporated (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Incorporated (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Country Incorporated (1)</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (1) Address (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (1) Address (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (1) Address (1)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (1) Address (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (1) Address (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (1) Address (2)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (1) Address (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (1) Address (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (1) Address (3)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor Name (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor Name (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor Name (2)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Registration No. (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Registration No. (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Company Registration No. (2)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietorship Category (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietorship Category (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietorship Category (2)</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Incorporated (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Incorporated (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Country Incorporated (2)</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (2) Address (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (2) Address (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (2) Address (1)</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (2) Address (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (2) Address (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (2) Address (2)</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (2) Address (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (2) Address (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (2) Address (3)</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor Name (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor Name (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor Name (3)</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Registration No. (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Registration No. (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Company Registration No. (3)</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietorship Category (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietorship Category (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietorship Category (3)</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Incorporated (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Incorporated (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Country Incorporated (3)</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (3) Address (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (3) Address (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (3) Address (1)</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (3) Address (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (3) Address (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (3) Address (2)</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (3) Address (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (3) Address (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (3) Address (3)</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor Name (4)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor Name (4)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor Name (4)</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company Registration No. (4)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Company Registration No. (4)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Company Registration No. (4)</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietorship Category (4)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietorship Category (4)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietorship Category (4)</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country Incorporated (4)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country Incorporated (4)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Country Incorporated (4)</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (4) Address (1)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (4) Address (1)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (4) Address (1)</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (4) Address (2)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (4) Address (2)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (4) Address (2)</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Proprietor (4) Address (3)</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Proprietor (4) Address (3)]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Proprietor (4) Address (3)</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date Proprietor Added</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Date Proprietor Added]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Date Proprietor Added</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional Proprietor Indicator</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Additional Proprietor Indicator]</local-name>
+            <parent-name>[OCOD_FULL_2023_07.csv]</parent-name>
+            <remote-alias>Additional Proprietor Indicator</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country Incorporated (1)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Incorporated (2)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Incorporated (3)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Country Incorporated (4)]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[County]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[Postcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='OCOD_FULL_2023_07.csv' datatype='table' name='[__tableau_internal_object_id__].[OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='OCOD_FULL_2023_07.csv' id='OCOD_FULL_2023_07.csv_6BBA3D9B008D4DB4BC43E0512315D76B'>
+            <properties context=''>
+              <relation connection='textscan.12kcg0r0229gov164miw50uk94ci' name='OCOD_FULL_2023_07.csv' table='[OCOD_FULL_2023_07#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='Title Number' ordinal='0' />
+                  <column datatype='string' name='Tenure' ordinal='1' />
+                  <column datatype='string' name='Property Address' ordinal='2' />
+                  <column datatype='string' name='District' ordinal='3' />
+                  <column datatype='string' name='County' ordinal='4' />
+                  <column datatype='string' name='Region' ordinal='5' />
+                  <column datatype='string' name='Postcode' ordinal='6' />
+                  <column datatype='string' name='Multiple Address Indicator' ordinal='7' />
+                  <column datatype='integer' name='Price Paid' ordinal='8' />
+                  <column datatype='string' name='Proprietor Name (1)' ordinal='9' />
+                  <column datatype='string' name='Company Registration No. (1)' ordinal='10' />
+                  <column datatype='string' name='Proprietorship Category (1)' ordinal='11' />
+                  <column datatype='string' name='Country Incorporated (1)' ordinal='12' />
+                  <column datatype='string' name='Proprietor (1) Address (1)' ordinal='13' />
+                  <column datatype='string' name='Proprietor (1) Address (2)' ordinal='14' />
+                  <column datatype='string' name='Proprietor (1) Address (3)' ordinal='15' />
+                  <column datatype='string' name='Proprietor Name (2)' ordinal='16' />
+                  <column datatype='string' name='Company Registration No. (2)' ordinal='17' />
+                  <column datatype='string' name='Proprietorship Category (2)' ordinal='18' />
+                  <column datatype='string' name='Country Incorporated (2)' ordinal='19' />
+                  <column datatype='string' name='Proprietor (2) Address (1)' ordinal='20' />
+                  <column datatype='string' name='Proprietor (2) Address (2)' ordinal='21' />
+                  <column datatype='string' name='Proprietor (2) Address (3)' ordinal='22' />
+                  <column datatype='string' name='Proprietor Name (3)' ordinal='23' />
+                  <column datatype='string' name='Company Registration No. (3)' ordinal='24' />
+                  <column datatype='string' name='Proprietorship Category (3)' ordinal='25' />
+                  <column datatype='string' name='Country Incorporated (3)' ordinal='26' />
+                  <column datatype='string' name='Proprietor (3) Address (1)' ordinal='27' />
+                  <column datatype='string' name='Proprietor (3) Address (2)' ordinal='28' />
+                  <column datatype='string' name='Proprietor (3) Address (3)' ordinal='29' />
+                  <column datatype='string' name='Proprietor Name (4)' ordinal='30' />
+                  <column datatype='string' name='Company Registration No. (4)' ordinal='31' />
+                  <column datatype='string' name='Proprietorship Category (4)' ordinal='32' />
+                  <column datatype='string' name='Country Incorporated (4)' ordinal='33' />
+                  <column datatype='string' name='Proprietor (4) Address (1)' ordinal='34' />
+                  <column datatype='string' name='Proprietor (4) Address (2)' ordinal='35' />
+                  <column datatype='string' name='Proprietor (4) Address (3)' ordinal='36' />
+                  <column datatype='date' name='Date Proprietor Added' ordinal='37' />
+                  <column datatype='string' name='Additional Proprietor Indicator' ordinal='38' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Properties Owned by Foreign Companies</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='OCOD_FULL_2023_07' name='federated.19p94cn05a12dg11pqc4g0p3b9za' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19p94cn05a12dg11pqc4g0p3b9za'>
+            <column caption='RUNNING_SUM(COUNT([Title Number]))' datatype='integer' name='[Calculation_606086040133476357]' role='measure' type='quantitative' user:unnamed='Sheet 1'>
+              <calculation class='tableau' formula='RUNNING_SUM(COUNT([Title Number]))'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='date' name='[Date Proprietor Added]' role='dimension' type='ordinal' />
+            <column datatype='string' name='[Title Number]' role='dimension' type='nominal' />
+            <column-instance column='[Date Proprietor Added]' derivation='Year-Trunc' name='[tyr:Date Proprietor Added:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_606086040133476357]' derivation='User' name='[usr:Calculation_606086040133476357:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.19p94cn05a12dg11pqc4g0p3b9za].[tyr:Date Proprietor Added:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.19p94cn05a12dg11pqc4g0p3b9za].[tyr:Date Proprietor Added:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.19p94cn05a12dg11pqc4g0p3b9za].[usr:Calculation_606086040133476357:qk]' scope='rows' value='Number of Properties' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#245be2' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19p94cn05a12dg11pqc4g0p3b9za].[usr:Calculation_606086040133476357:qk]</rows>
+        <cols>[federated.19p94cn05a12dg11pqc4g0p3b9za].[tyr:Date Proprietor Added:qk]</cols>
+      </table>
+      <simple-id uuid='{0B075185-F717-46E4-A1E4-CB7F1EB51A01}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.19p94cn05a12dg11pqc4g0p3b9za].[none:Calculation_606086040129884161:qk]</field>
+            <field>[federated.19p94cn05a12dg11pqc4g0p3b9za].[none:Calculation_606086040130048002:qk]</field>
+            <field>[federated.19p94cn05a12dg11pqc4g0p3b9za].[none:Calculation_606086040130146307:qk]</field>
+            <field>[federated.19p94cn05a12dg11pqc4g0p3b9za].[none:Property Address:nk]</field>
+            <field>[federated.19p94cn05a12dg11pqc4g0p3b9za].[yr:Date Proprietor Added:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{48DEE217-C5AA-4C93-B781-4D02ED23948A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
